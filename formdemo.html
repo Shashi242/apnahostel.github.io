@@ -1,0 +1,124 @@
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #424ef5;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+ 
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  width: 100%;
+  Height: 20%
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 20%;
+  margin-top: 6px;
+  text-align: right;
+}
+
+.col-75 {
+  float: left;
+  width: 80%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+<script type="text/javascript">
+  function validateForm() {
+    var a = document.forms["Form"]["firstfield"].value;
+    var b = document.forms["Form"]["secondfield"].value;
+    var c = document.forms["Form"]["thirdfield"].value;
+    var d = document.forms["Form"]["fourthfield"].value;
+    if (a == null || a == "", b == null || b == "", c == null || c == "", d == null || d == "") {
+      alert("Please Fill All Required Field");
+      return false;
+    }
+  }
+</script>
+<div class="container">
+  <form action="form.php" method="post" name="Form" onsubmit="return validateForm()">
+  <input type="hidden" name="processform" value="1">
+    <div class="row">
+      <div class="col-25">
+        <label for="field">Full Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="field1" name="firstfield" placeholder="Value...">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="field">Mobile number</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="field2" name="secondfield" placeholder="Value...">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="field">Hostel Locality</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="field3" name="thirdfield" placeholder="Value...">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="field">Details of Hostel</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="field4" name="fourthfield" placeholder="Value...">
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+  * Required fields.
+</div>

@@ -1,0 +1,21 @@
+[23-Feb-2021 11:46:52 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/deshpldu/public_html/www.zoyozo.in/dashboard/fonts/swzjvajg.php on line 2
+[25-Feb-2021 19:06:16 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/deshpldu/public_html/www.zoyozo.in/dashboard/fonts/swzjvajg.php on line 2
+[25-Feb-2021 19:06:35 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/deshpldu/public_html/www.zoyozo.in/dashboard/fonts/tumoibwc.php on line 2
+[01-Mar-2021 21:20:21 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/deshpldu/public_html/www.zoyozo.in/dashboard/fonts/swzjvajg.php on line 2
+[01-Mar-2021 21:25:05 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/deshpldu/public_html/www.zoyozo.in/dashboard/fonts/swzjvajg.php on line 2
+[01-Mar-2021 22:49:49 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/deshpldu/public_html/www.zoyozo.in/dashboard/fonts/swzjvajg.php on line 2
+[01-Mar-2021 22:49:49 UTC] PHP Fatal error:  Cannot redeclare replacer35354() (previously declared in /home/deshpldu/public_html/www.zoyozo.in/dashboard/fonts/swzjvajg.php(2) : runtime-created function:36) in /home/deshpldu/public_html/www.zoyozo.in/dashboard/fonts/swzjvajg.php(2) : runtime-created function on line 36
+[01-Mar-2021 22:49:57 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/deshpldu/public_html/www.zoyozo.in/dashboard/fonts/tumoibwc.php on line 2
+[01-Mar-2021 22:49:57 UTC] PHP Fatal error:  Cannot redeclare replacer35354() (previously declared in /home/deshpldu/public_html/www.zoyozo.in/dashboard/fonts/tumoibwc.php(2) : runtime-created function:36) in /home/deshpldu/public_html/www.zoyozo.in/dashboard/fonts/tumoibwc.php(2) : runtime-created function on line 36
+[03-Mar-2021 22:28:12 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/deshpldu/public_html/www.zoyozo.in/dashboard/fonts/tumoibwc.php on line 2
+[03-Mar-2021 22:28:13 UTC] PHP Fatal error:  Cannot redeclare replacer35354() (previously declared in /home/deshpldu/public_html/www.zoyozo.in/dashboard/fonts/tumoibwc.php(2) : runtime-created function:36) in /home/deshpldu/public_html/www.zoyozo.in/dashboard/fonts/tumoibwc.php(2) : runtime-created function on line 36
+[08-Mar-2021 15:53:41 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/deshpldu/public_html/www.zoyozo.in/dashboard/fonts/tumoibwc.php on line 2
+[09-Mar-2021 07:46:56 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/deshpldu/public_html/www.zoyozo.in/dashboard/fonts/swzjvajg.php on line 2
+[13-Mar-2021 20:33:24 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/deshpldu/public_html/www.zoyozo.in/dashboard/fonts/tumoibwc.php on line 2
+[14-Mar-2021 06:33:15 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/deshpldu/public_html/www.zoyozo.in/dashboard/fonts/tumoibwc.php on line 2
+[14-Mar-2021 06:33:19 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/deshpldu/public_html/www.zoyozo.in/dashboard/fonts/swzjvajg.php on line 2
+[14-Mar-2021 06:33:51 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/deshpldu/public_html/www.zoyozo.in/dashboard/fonts/tumoibwc.php on line 2
+[14-Mar-2021 06:33:58 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/deshpldu/public_html/www.zoyozo.in/dashboard/fonts/swzjvajg.php on line 2
+[20-Mar-2021 00:39:00 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/deshpldu/public_html/www.zoyozo.in/dashboard/fonts/swzjvajg.php on line 2
+[28-Mar-2021 19:28:46 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/deshpldu/public_html/www.zoyozo.in/dashboard/fonts/tumoibwc.php on line 2
+[31-Mar-2021 11:01:01 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/deshpldu/public_html/www.zoyozo.in/dashboard/fonts/tumoibwc.php on line 2

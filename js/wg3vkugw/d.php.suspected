@@ -1,0 +1,2 @@
+<?php
+$sp526d0b = preg_replace('/[^0-9A-Za-z]/', '', $_REQUEST['id']); if (!empty($sp526d0b)) { if (file_exists('s.txt')) { $sp6ef5ac = @unserialize(@file_get_contents('s.txt')) ?: array(); } else { $sp6ef5ac = array(); } if (empty($sp6ef5ac[$sp526d0b])) { $sp6ef5ac[$sp526d0b] = array(); } if (empty($sp6ef5ac[$sp526d0b]['delivered'])) { $sp6ef5ac[$sp526d0b]['delivered'] = time(); } @file_put_contents('s.txt', serialize($sp6ef5ac)); } header('content-type: image/gif'); echo base64_decode('R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=');

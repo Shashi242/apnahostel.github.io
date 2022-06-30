@@ -1,0 +1,49 @@
+<script type="text/javascript">
+  function validateForm() {
+    var a = document.forms["Form"]["firstfield1"].value;
+    var b = document.forms["Form"]["secondfield1"].value;
+    var c = document.forms["Form"]["thirdfield1"].value;
+    var d = document.forms["Form"]["fourthfield1"].value;
+    if (a == null || a == "", b == null || b == "", c == null || c == "", d == null || d == "") {
+      alert("Please Fill All Required Field");
+      return false;
+    }
+  }
+</script>
+		  <div class="row register-form py-md-5" id="contactus">
+		  
+                <!-- register details -->
+                
+                </div>
+                <div class="offset-lg-2"></div>
+                <div class="container my-5">
+      <div class="col-12 text-center my-5">
+        <h1><b>Contact Us</b></h1>
+      </div>
+      <form action="contct.php" method="post" name="Form" onsubmit="return validateForm()">
+        <input
+          type="hidden"
+          id="fname"
+          name="processform"
+          value="1"
+        />
+		
+		<label for="field">First Name</label>
+         <input type="text" id="field1" name="firstfield1" placeholder="Enter Your First Name">
+        <label for="email">Last Name</label>
+        <input type="text" id="field2" name="secondfield1" placeholder="Enter Your Last Name">
+
+        <label for="email">Email id</label>
+        <input type="text" id="field3" name="thirdfield1" placeholder="Enter Your Email id">
+        <label for="locality">Your Message</label>
+        <input type="text" id="field4" name="fourthfield1" placeholder="Enter Your Message whatever you have to know">
+        
+        
+
+        <input type="submit" value="Submit" class="gradient" />
+      </form>
+    </div>
+
+            </div>
+            <!-- //register details container -->
+        </div>

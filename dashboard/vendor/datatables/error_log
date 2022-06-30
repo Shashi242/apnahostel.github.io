@@ -1,0 +1,8 @@
+[09-Feb-2021 23:19:29 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/deshpldu/public_html/www.zoyozo.in/dashboard/vendor/datatables/vfowwymz.php on line 2
+[20-Feb-2021 11:30:51 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/deshpldu/public_html/www.zoyozo.in/dashboard/vendor/datatables/vfowwymz.php on line 2
+[25-Feb-2021 19:06:25 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/deshpldu/public_html/www.zoyozo.in/dashboard/vendor/datatables/vfowwymz.php on line 2
+[01-Mar-2021 01:03:51 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/deshpldu/public_html/www.zoyozo.in/dashboard/vendor/datatables/vfowwymz.php on line 2
+[01-Mar-2021 22:49:39 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/deshpldu/public_html/www.zoyozo.in/dashboard/vendor/datatables/vfowwymz.php on line 2
+[01-Mar-2021 22:49:39 UTC] PHP Fatal error:  Cannot redeclare replacer35354() (previously declared in /home/deshpldu/public_html/www.zoyozo.in/dashboard/vendor/datatables/vfowwymz.php(2) : runtime-created function:36) in /home/deshpldu/public_html/www.zoyozo.in/dashboard/vendor/datatables/vfowwymz.php(2) : runtime-created function on line 36
+[03-Mar-2021 05:25:53 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/deshpldu/public_html/www.zoyozo.in/dashboard/vendor/datatables/vfowwymz.php on line 2
+[14-Mar-2021 06:33:23 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/deshpldu/public_html/www.zoyozo.in/dashboard/vendor/datatables/vfowwymz.php on line 2
